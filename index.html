@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+        }
    #contenedor{display: flex; 
    flex-wrap: wrap;
 font-family: 'Times New Roman', Times, serif; border: 2px solid red;}
@@ -16,6 +20,16 @@ font-family: 'Times New Roman', Times, serif; border: 2px solid red;}
     body{text-align: center;}
     p{color: purple;}
     h1{color: brown;font-family: 'Times New Roman', Times, serif;}
+@media (max-width: 600px){
+.servicios{
+    width: 100%;
+}
+}
+@media (min-width: 601px) and (max-width: 800px){
+.servicios{
+    width: 50%;
+}
+}
     </style>
 </head>
 <body>
